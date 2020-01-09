@@ -1,0 +1,41 @@
+ .navbar{
+   display: flex;
+   justify-content: space-evenly;
+background-color: orangered;
+}
+
+.content{
+ display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+h1{
+width: 100%
+text-align: center ;
+   
+}
+
+
+h1 +p {
+  width: 100%;
+}
+
+.news{
+  width: 33%;
+}
+
+#breaking{
+
+  align-content: flex-start;
+}
+
+.news:nth-last-of-type(1){
+  font-size: 160%;
+  text-align: center;
+  color: red;
+  order: -1;
+  margin-left: 35%
+}
+.news:nth-last-of-type(1){
+  margin-left:15% ;
+}
